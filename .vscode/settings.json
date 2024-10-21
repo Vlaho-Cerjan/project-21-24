@@ -1,0 +1,18 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "cSpell.words": [
+        "notistack", "testid"
+    ],
+    "testing.automaticallyOpenPeekView": "never",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit",
+        "source.removeUnusedImports": "explicit",
+        "source.addMissingImports": "explicit"
+    },
+    "editor.defaultFormatter": null
+}

@@ -1,0 +1,231 @@
+html {
+    font-size: 14px;
+}
+
+.MuiMenuItem-root {
+    font-weight: 700 !important;
+    color: rgba(0, 0, 32, 0.48) !important;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 !important;
+    //overflow: hidden;
+
+    @media (min-width: 1441px) {
+        background-color: #EEEEF1 !important;
+
+        &.dark {
+            background-color: #222222 !important;
+        }
+    }
+
+    &.dark {
+
+        .MuiMenuItem-root {
+            color: rgba(255, 255, 255, 0.7) !important;
+        }
+    }
+}
+
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+html.locked {
+    overflow: hidden !important;
+}
+
+body.fontSize_11 {
+
+    p,
+    a,
+    input,
+    li,
+    span,
+    .MuiSelect-select,
+    svg,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.1em;
+    }
+
+}
+
+body.fontSize_12 {
+
+    p,
+    a,
+    input,
+    li,
+    span,
+    .MuiSelect-select,
+    svg,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.2em;
+    }
+}
+
+body.fontSize_13 {
+
+    p,
+    a,
+    input,
+    li,
+    span,
+    .MuiSelect-select,
+    svg,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.3em;
+    }
+}
+
+body.fontSize_14 {
+
+    p,
+    a,
+    input,
+    li,
+    span,
+    .MuiSelect-select,
+    svg,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.4em;
+    }
+}
+
+body.fontSize_15 {
+
+    p,
+    a,
+    input,
+    li,
+    span,
+    .MuiSelect-select,
+    svg,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 1.5em;
+    }
+}
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+}
+
+.mySwiper .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    //flex-shrink: 1;
+    transition: scale 0.3s ease;
+
+    &:not(.swiper-slide-active) {
+        scale: 0.9;
+        transition: scale 0.3s ease;
+    }
+}
+
+.mySwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.darkerBackground {
+    background-color: rgba(0, 0, 32, 0.08) !important;
+}
+
+.MuiModal-root,
+.MuiPopover-root,
+.MuiMenu-root {
+    z-index: 9999 !important;
+}
+
+button,
+a {
+    &.MuiButton-root {
+        box-shadow: 0 1px 6px 0 rgba(0, 0, 32, 0.32);
+    }
+
+    &.MuiButton-root.MuiButton-containedSuccess {
+        box-shadow: 0 1px 6px 0 rgba(140, 210, 40, 0.48);
+    }
+
+    &.MuiButton-root.MuiButton-containedPrimary {
+        box-shadow: 0 1px 6px 0 rgba(40, 140, 240, 0.24);
+    }
+
+    &.MuiButton-root.MuiButton-containedError {
+        box-shadow: 0 1px 6px 0 rgba(240, 40, 40, 0.24);
+    }
+
+    &.MuiButton-root.MuiButton-containedWarning {
+        box-shadow: 0 1px 6px 0 rgba(240, 140, 40, 0.24);
+    }
+}
+
+.MuiTooltip-popper {
+    font-size: 10px !important;
+
+    div {
+        font-size: 1em !important;
+        font-weight: 700 !important;
+    }
+}
+
+.MuiAutocomplete-popper {
+    font-size: 14px !important;
+
+    div,
+    ul,
+    li {
+        font-size: 1em !important;
+        font-weight: 700 !important;
+    }
+
+    .MuiPaper-root {
+        box-shadow: none !important;
+    }
+}

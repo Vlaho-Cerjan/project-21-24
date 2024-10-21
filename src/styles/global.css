@@ -1,0 +1,195 @@
+html {
+  font-size: 14px;
+}
+
+.MuiMenuItem-root {
+  font-weight: 700 !important;
+  color: rgba(0, 0, 32, 0.48) !important;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0 !important;
+}
+@media (min-width: 1441px) {
+  body {
+    background-color: #EEEEF1 !important;
+  }
+  body.dark {
+    background-color: #222222 !important;
+  }
+}
+body.dark .MuiMenuItem-root {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+html.locked {
+  overflow: hidden !important;
+}
+
+body.fontSize_11 p,
+body.fontSize_11 a,
+body.fontSize_11 input,
+body.fontSize_11 li,
+body.fontSize_11 span,
+body.fontSize_11 .MuiSelect-select,
+body.fontSize_11 svg,
+body.fontSize_11 h1,
+body.fontSize_11 h2,
+body.fontSize_11 h3,
+body.fontSize_11 h4,
+body.fontSize_11 h5,
+body.fontSize_11 h6 {
+  font-size: 1.1em;
+}
+
+body.fontSize_12 p,
+body.fontSize_12 a,
+body.fontSize_12 input,
+body.fontSize_12 li,
+body.fontSize_12 span,
+body.fontSize_12 .MuiSelect-select,
+body.fontSize_12 svg,
+body.fontSize_12 h1,
+body.fontSize_12 h2,
+body.fontSize_12 h3,
+body.fontSize_12 h4,
+body.fontSize_12 h5,
+body.fontSize_12 h6 {
+  font-size: 1.2em;
+}
+
+body.fontSize_13 p,
+body.fontSize_13 a,
+body.fontSize_13 input,
+body.fontSize_13 li,
+body.fontSize_13 span,
+body.fontSize_13 .MuiSelect-select,
+body.fontSize_13 svg,
+body.fontSize_13 h1,
+body.fontSize_13 h2,
+body.fontSize_13 h3,
+body.fontSize_13 h4,
+body.fontSize_13 h5,
+body.fontSize_13 h6 {
+  font-size: 1.3em;
+}
+
+body.fontSize_14 p,
+body.fontSize_14 a,
+body.fontSize_14 input,
+body.fontSize_14 li,
+body.fontSize_14 span,
+body.fontSize_14 .MuiSelect-select,
+body.fontSize_14 svg,
+body.fontSize_14 h1,
+body.fontSize_14 h2,
+body.fontSize_14 h3,
+body.fontSize_14 h4,
+body.fontSize_14 h5,
+body.fontSize_14 h6 {
+  font-size: 1.4em;
+}
+
+body.fontSize_15 p,
+body.fontSize_15 a,
+body.fontSize_15 input,
+body.fontSize_15 li,
+body.fontSize_15 span,
+body.fontSize_15 .MuiSelect-select,
+body.fontSize_15 svg,
+body.fontSize_15 h1,
+body.fontSize_15 h2,
+body.fontSize_15 h3,
+body.fontSize_15 h4,
+body.fontSize_15 h5,
+body.fontSize_15 h6 {
+  font-size: 1.5em;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: scale 0.3s ease;
+}
+.mySwiper .swiper-slide:not(.swiper-slide-active) {
+  scale: 0.9;
+  transition: scale 0.3s ease;
+}
+
+.mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.darkerBackground {
+  background-color: rgba(0, 0, 32, 0.08) !important;
+}
+
+.MuiModal-root,
+.MuiPopover-root,
+.MuiMenu-root {
+  z-index: 9999 !important;
+}
+
+button.MuiButton-root,
+a.MuiButton-root {
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 32, 0.32);
+}
+button.MuiButton-root.MuiButton-containedSuccess,
+a.MuiButton-root.MuiButton-containedSuccess {
+  box-shadow: 0 1px 6px 0 rgba(140, 210, 40, 0.48);
+}
+button.MuiButton-root.MuiButton-containedPrimary,
+a.MuiButton-root.MuiButton-containedPrimary {
+  box-shadow: 0 1px 6px 0 rgba(40, 140, 240, 0.24);
+}
+button.MuiButton-root.MuiButton-containedError,
+a.MuiButton-root.MuiButton-containedError {
+  box-shadow: 0 1px 6px 0 rgba(240, 40, 40, 0.24);
+}
+button.MuiButton-root.MuiButton-containedWarning,
+a.MuiButton-root.MuiButton-containedWarning {
+  box-shadow: 0 1px 6px 0 rgba(240, 140, 40, 0.24);
+}
+
+.MuiTooltip-popper {
+  font-size: 10px !important;
+}
+.MuiTooltip-popper div {
+  font-size: 1em !important;
+  font-weight: 700 !important;
+}
+
+.MuiAutocomplete-popper {
+  font-size: 14px !important;
+}
+.MuiAutocomplete-popper div,
+.MuiAutocomplete-popper ul,
+.MuiAutocomplete-popper li {
+  font-size: 1em !important;
+  font-weight: 700 !important;
+}
+.MuiAutocomplete-popper .MuiPaper-root {
+  box-shadow: none !important;
+}/*# sourceMappingURL=global.css.map */
